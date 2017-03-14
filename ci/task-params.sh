@@ -3,4 +3,6 @@ export TERM=${TERM:-dumb}
 
 set -e
 
-echo $STAGE
+echo "DEFAULT_PARAM=$DEFAULT_PARAM"
+echo "OVERRIDE_PARAM=$OVERRIDE_PARAM"
+echo "EXTRA_PARAM=$EXTRA_PARAM"
