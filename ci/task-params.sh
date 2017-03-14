@@ -4,4 +4,5 @@ export TERM=${TERM:-dumb}
 set -e
 
 echo "STAGE=$STAGE"
-echo "ENV=$ENV"
+echo "USERNAME=$USERNAME"
+echo "PASSWORD=$PASSWORD"
