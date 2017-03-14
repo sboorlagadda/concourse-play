@@ -12,6 +12,7 @@ inputs:
 
 params:
   STAGE: default
+  ENV: DEV
 
 run:
   path: concourse-play/ci/task-params.sh
