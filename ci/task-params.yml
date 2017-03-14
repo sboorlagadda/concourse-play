@@ -1,0 +1,17 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: qlik/gradle
+    tag: latest
+
+inputs:
+- name: concourse-play
+
+params:
+  STAGE: default
+
+run:
+  path: concourse-play/ci/task-params.sh

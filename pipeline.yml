@@ -1,0 +1,21 @@
+groups:
+- name: master
+  jobs:
+  - test-params-override
+
+resources:
+- name: concourse-play
+  type: git
+  source:
+    branch: master
+    uri: https://github.com/sboorlagadda/concourse-play.git
+
+jobs:
+- name: test-params-override
+  plan:
+  - get: concourse-play
+    trigger: true
+  - task: test
+    file: concourse-play/ci/task-params.yml
+    params:
+      STAGE: override
