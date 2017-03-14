@@ -18,4 +18,4 @@ jobs:
   - task: test
     file: concourse-play/ci/task-params.yml
     params:
-      OVERRIDE_PARAM: override
+      STAGE: override
