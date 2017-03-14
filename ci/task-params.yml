@@ -12,8 +12,6 @@ inputs:
 
 params:
   OVERRIDE_PARAM: default
-  DEFAULT_PARAM: default
-  NO_DEFAULT_PARAM:
 
 run:
   path: concourse-play/ci/task-params.sh

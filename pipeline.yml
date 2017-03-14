@@ -18,6 +18,4 @@ jobs:
   - task: test
     file: concourse-play/ci/task-params.yml
     params:
-      NO_DEFAULT_PARAM: "nodefault"
-      OVERRIDE_PARAM: "override"
-      EXTRA_PARAM: "extraparam"
+      OVERRIDE_PARAM: override
