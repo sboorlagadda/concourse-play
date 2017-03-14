@@ -6,3 +6,5 @@ set -e
 echo "STAGE=$STAGE"
 echo "USERNAME=$USERNAME"
 echo "PASSWORD=$PASSWORD"
+echo "ENDPOINT=$ENDPOINT"
+

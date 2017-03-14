@@ -20,3 +20,4 @@ jobs:
     params:
       STAGE: PROD
       PASSWORD: {{password}}
+      ENDPOINT: "http://api.com"
